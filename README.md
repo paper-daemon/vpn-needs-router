@@ -5,7 +5,8 @@
 - 商品ありきではなく用途から診断
 - アフィリエイト候補は初期状態で空
 - 承認済み広告のみ `affiliate-config.js` に追加
-- 広告リンクは `rel="sponsored noopener"` 付き
+- 広告リンクは `rel="sponsored nofollow noopener"` 付き
+- [広告候補の表示境界と回帰テスト](docs/affiliate-boundary.md)
 
 ## Local
 `python3 -m http.server 8000`
@@ -16,7 +17,6 @@
 ## 収益化ポリシー
 
 共通スロット仕様 v1.0。提携承認済みリンクだけを有効化し、広告表記を付けます。診断本体は広告なしでも動作します。
-
 
 ## Affiliate policy
 The tool stays useful without affiliate links. Only approved programs may be enabled, with clear disclosure. Unapproved services use normal official links or no link.
